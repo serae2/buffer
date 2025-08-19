@@ -238,7 +238,10 @@ bool has_cap_sys_nice(void)
  * applications". */
 #include <sys/syscall.h>      /* Definition of SYS_* constants */
 #include <linux/capability.h> /* capabilities used below */
+
 /* \brief reports if the current thread has capability CAP_SYS_NICE, i.e. */
+//[SERAE] threadCreate(...): CAP_SYS_NICE 권한이 있을 때 RT policy/priority 명시적으로 부여, otherwise default
+
 bool has_cap_sys_nice(void)
 {
   struct __user_cap_header_struct hdr = {.version = _LINUX_CAPABILITY_VERSION_3};

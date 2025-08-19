@@ -1,0 +1,336 @@
+T: L, I: 20, S: 1
+0-th server is bind in 10.45.0.1:8080
+Enter client ip, form of 10.45.0.x: Enter UE port: connect estabilishes to 10.45.0.100:9000 from 10.45.0.1:8080
+Enter UE port: 1-th server is bind in 10.45.0.1:8080
+Enter client ip, form of 10.45.0.x: max: 103992
+avg: 55195.10925
+connection is end, connected UE is
+{0: {'ip': '10.45.0.100', 'port': 9000}}
+0: Scheduled task 1: size=81390, target_time=1755578068174.052
+Sleeping for 1.02 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,1,start_time,258757.101056518,ADU_size,81390,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,1,start_time,258757.278111750,ADU_size,81390,latency_req,200
+0: Scheduled task 2: size=85069, target_time=1755578068240.5452
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,2,start_time,258757.285177966,ADU_size,85069,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,2,start_time,258757.418005018,ADU_size,85069,latency_req,200
+0: Scheduled task 3: size=73741, target_time=1755578068249.422
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,3,start_time,258757.423956812,ADU_size,73741,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,3,start_time,258757.508312799,ADU_size,73741,latency_req,200
+0: Scheduled task 4: size=74388, target_time=1755578068336.5168
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,4,start_time,258757.514316124,ADU_size,74388,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,4,start_time,258757.588220682,ADU_size,74388,latency_req,200
+0: Scheduled task 5: size=78464, target_time=1755578068458.576
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,5,start_time,258757.594535381,ADU_size,78464,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,5,start_time,258757.657810141,ADU_size,78464,latency_req,200
+0: Scheduled task 6: size=80205, target_time=1755578068500.2947
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,6,start_time,258757.664266657,ADU_size,80205,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,6,start_time,258757.727482636,ADU_size,80205,latency_req,200
+0: Scheduled task 7: size=82146, target_time=1755578068511.265
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,7,start_time,258757.734086758,ADU_size,82146,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,7,start_time,258757.788996030,ADU_size,82146,latency_req,200
+0: Scheduled task 8: size=78829, target_time=1755578068535.3977
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,8,start_time,258757.795363194,ADU_size,78829,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,8,start_time,258757.848122576,ADU_size,78829,latency_req,200
+0: Scheduled task 9: size=85052, target_time=1755578068641.804
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,9,start_time,258757.855150858,ADU_size,85052,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,9,start_time,258757.908003284,ADU_size,85052,latency_req,200
+0: Scheduled task 10: size=75533, target_time=1755578068672.681
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,10,start_time,258757.914503960,ADU_size,75533,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,10,start_time,258757.957906590,ADU_size,75533,latency_req,200
+0: Scheduled task 11: size=83612, target_time=1755578068701.645
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,11,start_time,258757.964671164,ADU_size,83612,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,11,start_time,258758.008004033,ADU_size,83612,latency_req,200
+0: Scheduled task 12: size=76718, target_time=1755578068707.335
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,12,start_time,258758.014966925,ADU_size,76718,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,12,start_time,258758.058466219,ADU_size,76718,latency_req,200
+0: Scheduled task 13: size=54255, target_time=1755578068718.1245
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,13,start_time,258758.062872135,ADU_size,54255,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,13,start_time,258758.097727824,ADU_size,54255,latency_req,200
+0: Scheduled task 14: size=47044, target_time=1755578068968.1245
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,14,start_time,258758.101740512,ADU_size,47044,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,14,start_time,258758.131860067,ADU_size,47044,latency_req,200
+0: Scheduled task 15: size=46775, target_time=1755578069000.3
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,15,start_time,258758.135806122,ADU_size,46775,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,15,start_time,258758.167567521,ADU_size,46775,latency_req,200
+0: Scheduled task 16: size=47194, target_time=1755578069028.7363
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,16,start_time,258758.171393594,ADU_size,47194,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,16,start_time,258758.207215419,ADU_size,47194,latency_req,200
+0: Scheduled task 17: size=53148, target_time=1755578069168.3384
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,17,start_time,258758.211532469,ADU_size,53148,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,17,start_time,258758.237946985,ADU_size,53148,latency_req,200
+0: Scheduled task 18: size=49676, target_time=1755578069184.5034
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,18,start_time,258758.241948795,ADU_size,49676,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,18,start_time,258758.272544941,ADU_size,49676,latency_req,200
+0: Scheduled task 19: size=44903, target_time=1755578069434.5034
+Sleeping for 0.08 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,19,start_time,258758.357230683,ADU_size,44903,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,19,start_time,258758.386825201,ADU_size,44903,latency_req,200
+0: Scheduled task 20: size=50633, target_time=1755578069490.6719
+Sleeping for 0.02 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,20,start_time,258758.413843077,ADU_size,50633,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,20,start_time,258758.442324072,ADU_size,50633,latency_req,200
+0: Scheduled task 21: size=45175, target_time=1755578069534.444
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,21,start_time,258758.457139637,ADU_size,45175,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,21,start_time,258758.486728788,ADU_size,45175,latency_req,200
+0: Scheduled task 22: size=47205, target_time=1755578069551.6328
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,22,start_time,258758.490574519,ADU_size,47205,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,22,start_time,258758.518003303,ADU_size,47205,latency_req,200
+0: Scheduled task 23: size=44607, target_time=1755578069589.712
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,23,start_time,258758.521637949,ADU_size,44607,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,23,start_time,258758.577487775,ADU_size,44607,latency_req,200
+0: Scheduled task 24: size=39900, target_time=1755578069839.712
+Sleeping for 0.18 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,24,start_time,258758.762172094,ADU_size,39900,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,24,start_time,258758.822278860,ADU_size,39900,latency_req,200
+0: Scheduled task 25: size=48460, target_time=1755578069941.634
+Sleeping for 0.04 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,25,start_time,258758.864627411,ADU_size,48460,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,25,start_time,258758.897339779,ADU_size,48460,latency_req,200
+0: Scheduled task 26: size=45937, target_time=1755578069990.7837
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,26,start_time,258758.913568541,ADU_size,45937,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,26,start_time,258758.947394275,ADU_size,45937,latency_req,200
+0: Scheduled task 27: size=46674, target_time=1755578070067.56
+Sleeping for 0.04 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,27,start_time,258758.990392462,ADU_size,46674,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,27,start_time,258759.088381808,ADU_size,46674,latency_req,200
+0: Scheduled task 28: size=47927, target_time=1755578070141.888
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,28,start_time,258759.092321493,ADU_size,47927,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,28,start_time,258759.447481264,ADU_size,47927,latency_req,200
+0: Scheduled task 29: size=44292, target_time=1755578070174.019
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,29,start_time,258759.451110017,ADU_size,44292,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,29,start_time,258759.508004506,ADU_size,44292,latency_req,200
+0: Scheduled task 30: size=49327, target_time=1755578070181.9795
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,30,start_time,258759.512014313,ADU_size,49327,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,30,start_time,258759.547939480,ADU_size,49327,latency_req,200
+0: Scheduled task 31: size=48009, target_time=1755578070199.2422
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,31,start_time,258759.551868777,ADU_size,48009,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,31,start_time,258759.607740585,ADU_size,48009,latency_req,200
+0: Scheduled task 32: size=49407, target_time=1755578070357.2698
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,32,start_time,258759.611737545,ADU_size,49407,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,32,start_time,258759.667583104,ADU_size,49407,latency_req,200
+0: Scheduled task 33: size=50005, target_time=1755578070381.2744
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,33,start_time,258759.671699973,ADU_size,50005,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,33,start_time,258759.707658452,ADU_size,50005,latency_req,200
+0: Scheduled task 34: size=45817, target_time=1755578070426.0737
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,34,start_time,258759.711414381,ADU_size,45817,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,34,start_time,258759.747281562,ADU_size,45817,latency_req,200
+0: Scheduled task 35: size=47307, target_time=1755578070676.0737
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,35,start_time,258759.751177695,ADU_size,47307,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,35,start_time,258759.781800490,ADU_size,47307,latency_req,200
+0: Scheduled task 36: size=46484, target_time=1755578070760.507
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,36,start_time,258759.785607911,ADU_size,46484,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,36,start_time,258759.808930599,ADU_size,46484,latency_req,200
+0: Scheduled task 37: size=48913, target_time=1755578070903.0364
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,37,start_time,258759.826050488,ADU_size,48913,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,37,start_time,258759.912436482,ADU_size,48913,latency_req,200
+0: Scheduled task 38: size=47430, target_time=1755578070929.6335
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,38,start_time,258759.916291975,ADU_size,47430,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,38,start_time,258759.957503999,ADU_size,47430,latency_req,200
+0: Scheduled task 39: size=49662, target_time=1755578071126.253
+Sleeping for 0.09 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,39,start_time,258760.049429233,ADU_size,49662,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,39,start_time,258760.087376922,ADU_size,49662,latency_req,200
+0: Scheduled task 40: size=47149, target_time=1755578071129.603
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,40,start_time,258760.091240847,ADU_size,47149,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,40,start_time,258760.147112779,ADU_size,47149,latency_req,200
+0: Scheduled task 41: size=45620, target_time=1755578071379.603
+Sleeping for 0.15 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,41,start_time,258760.302521405,ADU_size,45620,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,41,start_time,258760.357354342,ADU_size,45620,latency_req,200
+0: Scheduled task 42: size=45891, target_time=1755578071394.1082
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,42,start_time,258760.361129415,ADU_size,45891,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,42,start_time,258760.417006055,ADU_size,45891,latency_req,200
+0: Scheduled task 43: size=44349, target_time=1755578071476.3696
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,43,start_time,258760.420632780,ADU_size,44349,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,43,start_time,258760.477537694,ADU_size,44349,latency_req,200
+0: Scheduled task 44: size=45089, target_time=1755578071486.794
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,44,start_time,258760.481205086,ADU_size,45089,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,44,start_time,258760.517130504,ADU_size,45089,latency_req,200
+0: Scheduled task 45: size=48277, target_time=1755578071507.4668
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,45,start_time,258760.521063647,ADU_size,48277,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,45,start_time,258760.577005419,ADU_size,48277,latency_req,200
+0: Scheduled task 46: size=49387, target_time=1755578071567.8174
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,46,start_time,258760.581072614,ADU_size,49387,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,46,start_time,258760.692776223,ADU_size,49387,latency_req,200
+0: Scheduled task 47: size=47007, target_time=1755578071817.8174
+Sleeping for 0.04 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,47,start_time,258760.740682194,ADU_size,47007,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,47,start_time,258760.768155128,ADU_size,47007,latency_req,200
+0: Scheduled task 48: size=49815, target_time=1755578071820.7668
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,48,start_time,258760.772203721,ADU_size,49815,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,48,start_time,258760.808152184,ADU_size,49815,latency_req,200
+0: Scheduled task 49: size=45750, target_time=1755578071880.6885
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,49,start_time,258760.811884545,ADU_size,45750,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,49,start_time,258760.867764201,ADU_size,45750,latency_req,200
+0: Scheduled task 50: size=48471, target_time=1755578072130.6885
+Sleeping for 0.18 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,50,start_time,258761.054244145,ADU_size,48471,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,50,start_time,258761.077630745,ADU_size,48471,latency_req,200
+0: Scheduled task 51: size=48929, target_time=1755578072255.1245
+Sleeping for 0.10 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,51,start_time,258761.178225405,ADU_size,48929,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,51,start_time,258761.207888756,ADU_size,48929,latency_req,200
+0: Scheduled task 52: size=51371, target_time=1755578072356.327
+Sleeping for 0.07 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,52,start_time,258761.279879068,ADU_size,51371,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,52,start_time,258761.307359167,ADU_size,51371,latency_req,200
+0: Scheduled task 53: size=52510, target_time=1755578072606.327
+Sleeping for 0.22 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,53,start_time,258761.529847240,ADU_size,52510,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,53,start_time,258761.566920525,ADU_size,52510,latency_req,200
+0: Scheduled task 54: size=52845, target_time=1755578072631.3284
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,54,start_time,258761.571248795,ADU_size,52845,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,54,start_time,258761.627176467,ADU_size,52845,latency_req,200
+0: Scheduled task 55: size=53134, target_time=1755578072694.21
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,55,start_time,258761.631523453,ADU_size,53134,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,55,start_time,258761.687542580,ADU_size,53134,latency_req,200
+0: Scheduled task 56: size=49397, target_time=1755578072782.4724
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,56,start_time,258761.705537566,ADU_size,49397,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,56,start_time,258761.762430372,ADU_size,49397,latency_req,200
+0: Scheduled task 57: size=45608, target_time=1755578072802.8386
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,57,start_time,258761.766179560,ADU_size,45608,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,57,start_time,258761.817810978,ADU_size,45608,latency_req,200
+0: Scheduled task 58: size=54414, target_time=1755578072819.3533
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,58,start_time,258761.822247309,ADU_size,54414,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,58,start_time,258761.878112575,ADU_size,54414,latency_req,200
+0: Scheduled task 59: size=53226, target_time=1755578072891.3748
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,59,start_time,258761.882456891,ADU_size,53226,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,59,start_time,258761.937351257,ADU_size,53226,latency_req,200
+0: Scheduled task 60: size=53253, target_time=1755578073141.3748
+Sleeping for 0.12 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,60,start_time,258762.064862853,ADU_size,53253,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,60,start_time,258762.097671919,ADU_size,53253,latency_req,200
+0: Scheduled task 61: size=51620, target_time=1755578073155.6306
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,61,start_time,258762.101919051,ADU_size,51620,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,61,start_time,258762.157862028,ADU_size,51620,latency_req,200
+0: Scheduled task 62: size=59363, target_time=1755578073194.0266
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,62,start_time,258762.162729112,ADU_size,59363,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,62,start_time,258762.197592047,ADU_size,59363,latency_req,200
+0: Scheduled task 63: size=55522, target_time=1755578073288.2446
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,63,start_time,258762.211802092,ADU_size,55522,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,63,start_time,258762.271999012,ADU_size,55522,latency_req,200
+0: Scheduled task 64: size=50856, target_time=1755578073297.563
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,64,start_time,258762.276160750,ADU_size,50856,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,64,start_time,258762.298382519,ADU_size,50856,latency_req,200
+0: Scheduled task 65: size=61291, target_time=1755578073372.1865
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,65,start_time,258762.303364590,ADU_size,61291,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,65,start_time,258762.362439608,ADU_size,61291,latency_req,200
+0: Scheduled task 66: size=60681, target_time=1755578073622.1865
+Sleeping for 0.18 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,66,start_time,258762.546335632,ADU_size,60681,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,66,start_time,258762.598162091,ADU_size,60681,latency_req,200
+0: Scheduled task 67: size=57425, target_time=1755578073636.6016
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,67,start_time,258762.602864931,ADU_size,57425,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,67,start_time,258762.657712369,ADU_size,57425,latency_req,200
+0: Scheduled task 68: size=57761, target_time=1755578073692.3372
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,68,start_time,258762.663134094,ADU_size,57761,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,68,start_time,258762.722300772,ADU_size,57761,latency_req,200
+0: Scheduled task 69: size=58503, target_time=1755578073703.3203
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,69,start_time,258762.727794625,ADU_size,58503,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,69,start_time,258762.757433787,ADU_size,58503,latency_req,200
+0: Scheduled task 70: size=57028, target_time=1755578073705.874
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,70,start_time,258762.762084945,ADU_size,57028,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,70,start_time,258762.817159423,ADU_size,57028,latency_req,200
+0: Scheduled task 71: size=56159, target_time=1755578073761.4656
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,71,start_time,258762.821729478,ADU_size,56159,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,71,start_time,258762.877651201,ADU_size,56159,latency_req,200
+0: Scheduled task 72: size=56921, target_time=1755578073777.4111
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,72,start_time,258762.882359219,ADU_size,56921,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,72,start_time,258762.918250486,ADU_size,56921,latency_req,200
+0: Scheduled task 73: size=51706, target_time=1755578073812.4902
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,73,start_time,258762.922520424,ADU_size,51706,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,73,start_time,258762.982654103,ADU_size,51706,latency_req,200
+0: Scheduled task 74: size=61656, target_time=1755578073985.2197
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,74,start_time,258762.987678253,ADU_size,61656,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,74,start_time,258763.038271840,ADU_size,61656,latency_req,200
+0: Scheduled task 75: size=57194, target_time=1755578073991.3328
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,75,start_time,258763.042940746,ADU_size,57194,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,75,start_time,258763.097806673,ADU_size,57194,latency_req,200
+0: Scheduled task 76: size=58975, target_time=1755578073999.423
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,76,start_time,258763.102607970,ADU_size,58975,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,76,start_time,258763.137592919,ADU_size,58975,latency_req,200
+0: Scheduled task 77: size=60180, target_time=1755578074249.423
+Sleeping for 0.03 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,77,start_time,258763.173344900,ADU_size,60180,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,77,start_time,258763.217726048,ADU_size,60180,latency_req,200
+0: Scheduled task 78: size=59474, target_time=1755578074361.982
+Sleeping for 0.06 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,78,start_time,258763.285866912,ADU_size,59474,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,78,start_time,258763.308139706,ADU_size,59474,latency_req,200
+0: Scheduled task 79: size=58156, target_time=1755578074380.0107
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,79,start_time,258763.312858576,ADU_size,58156,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,79,start_time,258763.367837043,ADU_size,58156,latency_req,200
+0: Scheduled task 80: size=52015, target_time=1755578074389.652
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,80,start_time,258763.372068562,ADU_size,52015,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,80,start_time,258763.417512403,ADU_size,52015,latency_req,200
+0: Scheduled task 81: size=65135, target_time=1755578074395.1233
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,81,start_time,258763.422802548,ADU_size,65135,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,81,start_time,258763.477650542,ADU_size,65135,latency_req,200
+0: Scheduled task 82: size=59661, target_time=1755578074645.1233
+Sleeping for 0.09 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,82,start_time,258763.569051061,ADU_size,59661,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,82,start_time,258763.627006498,ADU_size,59661,latency_req,200
+0: Scheduled task 83: size=62923, target_time=1755578074650.0525
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,83,start_time,258763.632146502,ADU_size,62923,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,83,start_time,258763.688058053,ADU_size,62923,latency_req,200
+0: Scheduled task 84: size=62154, target_time=1755578074650.7732
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,84,start_time,258763.693099000,ADU_size,62154,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,84,start_time,258763.748005070,ADU_size,62154,latency_req,200
+0: Scheduled task 85: size=62999, target_time=1755578074727.3137
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,85,start_time,258763.753115045,ADU_size,62999,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,85,start_time,258763.808005895,ADU_size,62999,latency_req,200
+0: Scheduled task 86: size=60470, target_time=1755578074854.2224
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,86,start_time,258763.812941333,ADU_size,60470,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,86,start_time,258763.847817681,ADU_size,60470,latency_req,200
+0: Scheduled task 87: size=60132, target_time=1755578074880.6077
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,87,start_time,258763.852727833,ADU_size,60132,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,87,start_time,258763.907592073,ADU_size,60132,latency_req,200
+0: Scheduled task 88: size=53984, target_time=1755578074975.1323
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,88,start_time,258763.912026897,ADU_size,53984,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,88,start_time,258763.967993709,ADU_size,53984,latency_req,200
+0: Scheduled task 89: size=60392, target_time=1755578075000.1118
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,89,start_time,258763.972931630,ADU_size,60392,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,89,start_time,258764.027807488,ADU_size,60392,latency_req,200
+0: Scheduled task 90: size=54019, target_time=1755578075099.7793
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,90,start_time,258764.032223111,ADU_size,54019,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,90,start_time,258764.068115521,ADU_size,54019,latency_req,200
+0: Scheduled task 91: size=52383, target_time=1755578075159.6467
+Sleeping for 0.01 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,91,start_time,258764.083040655,ADU_size,52383,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,91,start_time,258764.137152309,ADU_size,52383,latency_req,200
+0: Scheduled task 92: size=52200, target_time=1755578075220.473
+Sleeping for 0.00 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,92,start_time,258764.143765129,ADU_size,52200,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,92,start_time,258764.177562174,ADU_size,52200,latency_req,200
+0: Scheduled task 93: size=59370, target_time=1755578075232.168
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,93,start_time,258764.182412814,ADU_size,59370,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,93,start_time,258764.237344753,ADU_size,59370,latency_req,200
+0: Scheduled task 94: size=53861, target_time=1755578075243.6836
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,94,start_time,258764.241807455,ADU_size,53861,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,94,start_time,258764.297879632,ADU_size,53861,latency_req,200
+0: Scheduled task 95: size=62616, target_time=1755578075262.359
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,95,start_time,258764.302981492,ADU_size,62616,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,95,start_time,258764.357884843,ADU_size,62616,latency_req,200
+0: Scheduled task 96: size=66915, target_time=1755578075321.002
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,96,start_time,258764.363365538,ADU_size,66915,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,96,start_time,258764.388752367,ADU_size,66915,latency_req,200
+0: Scheduled task 97: size=69049, target_time=1755578075383.5696
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,97,start_time,258764.394370381,ADU_size,69049,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,97,start_time,258764.448178359,ADU_size,69049,latency_req,200
+0: Scheduled task 98: size=70245, target_time=1755578075633.5696
+Sleeping for 0.10 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,98,start_time,258764.558353170,ADU_size,70245,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,98,start_time,258764.618606302,ADU_size,70245,latency_req,200
+0: Scheduled task 99: size=68322, target_time=1755578075738.2227
+Sleeping for 0.04 seconds...
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,99,start_time,258764.662772380,ADU_size,68322,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,99,start_time,258764.717774854,ADU_size,68322,latency_req,200
+0: Scheduled task 100: size=67024, target_time=1755578075762.769
+[FEEDER],server_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,100,start_time,258764.723195895,ADU_size,67024,latency_req,200
+[FEEDER],server_ADU_last_packet,ue_ip,10.45.0.100,port,9000,req_idx,100,start_time,258764.778103743,ADU_size,67024,latency_req,200
+Terminating processes...

@@ -1,0 +1,141 @@
+net.core.rmem_max = 33554432
+net.core.wmem_max = 33554432
+CMDLINE: "/home/rana/serae/buffer/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "/home/rana/gnb_conf/open_5gs_41.conf" "--gNBs.[0].min_rxtxtime" "6" "--usrp-tx-thread-config" "1" "-E" "--continuous-tx" "--usrp-args" "addr=192.168.40.2" "--thread-pool" "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1" "--MACRLCs.[0].ulsch_max_frame_inactivity" "0" "--gNBs.[0].force_256qam_off" "-" "-g" "0" 
+[CONFIG] function config_libconfig_init returned 0
+DL frequency 2593350000: band 41, UL frequency 2593350000
+Found USRP x300
+Using Device: Single USRP:
+  Device: X-Series Device
+  Mboard 0: X310
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: CBX-120 RX
+  RX Channel: 1
+    RX DSP: 1
+    RX Dboard: B
+    RX Subdev: CBX-120 RX
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: CBX-120 TX
+  TX Channel: 1
+    TX DSP: 1
+    TX Dboard: B
+    TX Subdev: CBX-120 TX
+
+TYPE <CTRL-C> TO TERMINATE
+initializing tx write thread
+end of tx write thread
+trx_usrp_write_thread started on cpu 4
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,1,start_time,258757.101184127,size,81390,latency,184,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,2,start_time,258757.285262283,size,85069,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,3,start_time,258757.424057345,size,73741,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,4,start_time,258757.514400273,size,74388,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,5,start_time,258757.594634251,size,78464,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,6,start_time,258757.664341144,size,80205,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,7,start_time,258757.734165314,size,82146,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,8,start_time,258757.795446815,size,78829,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,9,start_time,258757.855237953,size,85052,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,10,start_time,258757.914580788,size,75533,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,11,start_time,258757.964735957,size,83612,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,12,start_time,258758.015038412,size,76718,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,13,start_time,258758.062962514,size,54255,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,14,start_time,258758.101815622,size,47044,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,15,start_time,258758.135911259,size,46775,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,16,start_time,258758.171470701,size,47194,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,17,start_time,258758.211609235,size,53148,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,18,start_time,258758.242015903,size,49676,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,19,start_time,258758.357347479,size,44903,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,20,start_time,258758.413955720,size,50633,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,21,start_time,258758.457212413,size,45175,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,22,start_time,258758.490636034,size,47205,latency,160,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,23,start_time,258758.521710852,size,44607,latency,174,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,24,start_time,258758.762283671,size,39900,latency,193,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,25,start_time,258758.864732053,size,48460,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,26,start_time,258758.913668659,size,45937,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,27,start_time,258758.990483057,size,46674,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,28,start_time,258759.092393928,size,47927,latency,137,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,29,start_time,258759.451205545,size,44292,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,30,start_time,258759.512103997,size,49327,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,31,start_time,258759.551943252,size,48009,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,32,start_time,258759.611798029,size,49407,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,33,start_time,258759.671766688,size,50005,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,34,start_time,258759.711486511,size,45817,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,35,start_time,258759.751253447,size,47307,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,36,start_time,258759.785674851,size,46484,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,37,start_time,258759.826132292,size,48913,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,38,start_time,258759.916381882,size,47430,latency,64,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,39,start_time,258760.049540099,size,49662,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,40,start_time,258760.091333132,size,47149,latency,114,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,41,start_time,258760.302627063,size,45620,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,42,start_time,258760.361199123,size,45891,latency,104,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,43,start_time,258760.420714087,size,44349,latency,149,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,44,start_time,258760.481272090,size,45089,latency,49,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,45,start_time,258760.521128018,size,48277,latency,10,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,46,start_time,258760.581138834,size,49387,latency,11,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,47,start_time,258760.740769358,size,47007,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,48,start_time,258760.772267471,size,49815,latency,135,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,49,start_time,258760.811947677,size,45750,latency,175,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,50,start_time,258761.054395016,size,48471,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,51,start_time,258761.178333173,size,48929,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,52,start_time,258761.279992225,size,51371,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,53,start_time,258761.529966429,size,52510,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,54,start_time,258761.571314970,size,52845,latency,158,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,55,start_time,258761.631592436,size,53134,latency,163,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,56,start_time,258761.705633187,size,49397,latency,192,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,57,start_time,258761.766243772,size,45608,latency,111,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,58,start_time,258761.822350745,size,54414,latency,32,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,59,start_time,258761.882539060,size,53226,latency,55,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,60,start_time,258762.064981582,size,53253,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,61,start_time,258762.102004964,size,51620,latency,145,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,62,start_time,258762.162800378,size,59363,latency,100,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,63,start_time,258762.211923043,size,55522,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,64,start_time,258762.276241446,size,50856,latency,80,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,65,start_time,258762.303437192,size,61291,latency,175,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,66,start_time,258762.546454029,size,60681,latency,189,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,67,start_time,258762.602957942,size,57425,latency,105,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,68,start_time,258762.663214770,size,57761,latency,96,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,69,start_time,258762.727892625,size,58503,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,70,start_time,258762.762161434,size,57028,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,71,start_time,258762.821838849,size,56159,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,72,start_time,258762.882450779,size,56921,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,73,start_time,258762.922619462,size,51706,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,74,start_time,258762.987756053,size,61656,latency,33,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,75,start_time,258763.043046364,size,57194,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,76,start_time,258763.102714862,size,58975,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,77,start_time,258763.173459526,size,60180,latency,190,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,78,start_time,258763.286008846,size,59474,latency,190,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,79,start_time,258763.312950056,size,58156,latency,172,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,80,start_time,258763.372159252,size,52015,latency,73,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,81,start_time,258763.422894978,size,65135,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,82,start_time,258763.569175659,size,59661,latency,190,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,83,start_time,258763.632236558,size,62923,latency,73,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,84,start_time,258763.693190742,size,62154,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,85,start_time,258763.753208036,size,62999,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,86,start_time,258763.813028617,size,60470,latency,120,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,87,start_time,258763.852837596,size,60132,latency,93,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,88,start_time,258763.912112439,size,53984,latency,164,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,89,start_time,258763.973033229,size,60392,latency,92,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,90,start_time,258764.032325619,size,54019,latency,173,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,91,start_time,258764.083163305,size,52383,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,92,start_time,258764.143885958,size,52200,latency,191,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,93,start_time,258764.182515398,size,59370,latency,137,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,94,start_time,258764.241908315,size,53861,latency,41,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,95,start_time,258764.303068869,size,62616,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,96,start_time,258764.363451653,size,66915,latency,1,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,97,start_time,258764.394448084,size,69049,latency,16,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,98,start_time,258764.558464509,size,70245,latency,188,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,99,start_time,258764.662920611,size,68322,latency,189,
+[0m[1;31m[SDAP]   [FEEDER],sdap_ADU_first_packet,ue_ip,1677733130,port,9000,req_idx,100,start_time,258764.723290499,size,67024,latency,117,
+[0m

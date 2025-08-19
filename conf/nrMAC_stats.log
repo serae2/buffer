@@ -1,0 +1,13 @@
+
+E RNTI 767f CU-UE-ID 1 in-sync PH 0 dB PCMAX 0 dBm, average RSRP -58 (15 meas)
+UE 767f: dlsch_rounds 52/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00182 MCS (0) 9
+UE 767f: ulsch_rounds 10199/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 16 (Qm 4 deltaMCS 0 dB) NPRB 5  SNR 54.5 dB
+UE 767f: MAC:    TX           6538 RX         869292 bytes
+UE 767f: LCID 1: TX            621 RX            277 bytes
+UE 767f: LCID 2: TX              0 RX              0 bytes
+UE 767f: LCID 4: TX              0 RX              0 bytes
+UE 767f: LCID 5: TX              0 RX              0 bytes
+UE 767f: LCID 6: TX              0 RX              0 bytes
+UE 767f: LCID 7: TX              0 RX              0 bytes
+UE 767f: LCID 8: TX             12 RX            231 bytes
+

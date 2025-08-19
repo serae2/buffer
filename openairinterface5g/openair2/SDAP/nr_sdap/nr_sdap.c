@@ -32,6 +32,13 @@
 #include "tun_if.h"
 #include "system.h"
 
+//SERAE add library
+#include "/usr/include/linux/tcp.h"
+#include "/usr/include/linux/udp.h"
+#include "/usr/include/linux/ip.h"
+#include "/usr/include/arpa/inet.h"
+#include <sys/time.h>
+
 static void reblock_tun_socket(int fd)
 {
   int f;
@@ -43,6 +50,24 @@ static void reblock_tun_socket(int fd)
   }
 }
 
+  // DRB - DRB + 8 (QFI) - DRB + 3 (LCID)
+  // QFI 9  - DRBID 1 - LCID 4
+  // QFI 10 - DRBID 2 - LCID 5 **
+  // QFI 11 - DRBID 3 - LCID 6 **
+  // QFI 12 - DRBID 4 - LCID 7 **
+  // QFI 13 - DRBID 5 - LCID 8 **
+
+// SHJIN ADU_header structure: need to identical in sender / receiver files
+typedef struct ADU_header_s {
+  uint32_t source_ip;
+  uint32_t dest_ip;
+  unsigned short source_port;
+  unsigned short dest_port;
+  int ADU_size;
+  int ADU_latency;
+  uint8_t qfi;
+  int req_idx;
+} ADU_header_t;
 
 bool sdap_data_req(protocol_ctxt_t *ctxt_p,
                    const ue_id_t ue_id,
@@ -64,6 +89,32 @@ bool sdap_data_req(protocol_ctxt_t *ctxt_p,
   if(sdap_entity == NULL) {
     LOG_E(SDAP, "%s:%d:%s: Entity not found with ue: 0x%"PRIx64" and pdusession id: %d\n", __FILE__, __LINE__, __FUNCTION__, ue_id, pdusession_id);
     return 0;
+  }
+
+  // SHJIN, change QFI to map DRB deliberately
+  //uint8_t modi_qfi = qfi;
+  if (ctxt_p->enb_flag && !srb_flag){
+    if (sdu_buffer_size >= sizeof(struct iphdr)){
+      const struct iphdr* ip_header = (struct iphdr*) sdu_buffer;
+      unsigned short ip_header_len = ip_header->ihl*4;
+      if (sdu_buffer_size >= ip_header_len + sizeof(struct tcphdr)){
+        const struct tcphdr* tcp_header = (struct tcphdr*) (sdu_buffer + ip_header_len);
+        unsigned short tcp_header_len = tcp_header->doff*4;
+        unsigned short dest_port = ntohs(tcp_header->dest);
+        if (dest_port > 8000){
+          // ADU adu if it is ADU flow
+          if (sdu_buffer_size >= ip_header_len + tcp_header_len + sizeof(ADU_header_t)){
+            // check is first ADU_packet?
+            const ADU_header_t* ADU_header = (ADU_header_t *) (sdu_buffer + ip_header_len + tcp_header_len);
+            if (ip_header->saddr == ADU_header->source_ip) {
+              struct timespec ts;
+              clock_gettime(CLOCK_MONOTONIC, &ts);
+              LOG_E(SDAP, "[FEEDER],sdap_ADU_first_packet,ue_ip,%u,port,%hu,req_idx,%d,start_time,%ld.%09ld,size,%d,latency,%d,\n", ADU_header->dest_ip, dest_port, ADU_header->req_idx, ts.tv_sec, ts.tv_nsec, ADU_header->ADU_size, ADU_header->ADU_latency);
+            }
+          }
+        }
+      }
+    }
   }
 
   bool ret = sdap_entity->tx_entity(sdap_entity,
